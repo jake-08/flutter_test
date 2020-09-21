@@ -17,10 +17,14 @@ class MyButton extends StatelessWidget {
         margin: const EdgeInsets.symmetric(horizontal: 8.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(5.0),
-          color: Colors.lightGreen[500],
+          color: Colors.lightBlue,
         ),
         child: Center(
-          child: Text('Engage'),
+          child: Text('Engage',
+          style: TextStyle(
+            fontSize: 65.0,
+            color: Colors.black
+          ) ),
         ),
       ),
     );
